@@ -4,7 +4,7 @@ import Navbar from './Component/Navbar'
 import AboutSection from './Component/AboutSection'
 import ProjectsSection from './Component/ProjectSection'
 import EmailSection from './Component/EmailSection'
-import Footer from './Component/FOoter'
+import Footer from './Component/Footer'
 
 export default function Home() {
   return (
