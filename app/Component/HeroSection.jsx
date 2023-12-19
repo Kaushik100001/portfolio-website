@@ -39,7 +39,7 @@ const HeroSection = () => {
           </p>
           <div>
             <Link
-              href="/contact"
+              href="/#contact"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4  hover:bg-gradient-to-r from-purple-200 via-purple-400 to-purple-800 hover:text-black bg-white text-black"
             >
               Hire Me
