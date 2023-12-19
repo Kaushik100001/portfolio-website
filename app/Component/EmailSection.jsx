@@ -69,7 +69,7 @@ const EmailSection = () => {
             Email sent successfully!
           </p>
         ) : (
-          <form className="flex flex-col" onSubmit={handleSubmit}>
+          <form className="flex flex-col" >
             <div className="mb-6">
               <label
                 htmlFor="email"
@@ -117,7 +117,7 @@ const EmailSection = () => {
               />
             </div>
             <button
-              type="submit"
+             
               className="bg-primary-500 hover:bg-primary-600 text-black font-medium py-2.5 px-5 rounded-lg w-full bg-white"
             >
               Send Message
